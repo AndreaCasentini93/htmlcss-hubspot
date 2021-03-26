@@ -3,12 +3,6 @@ header {
     background-color: lightblue;
 }
 
-#nav_top {
-    background-color: yellow;
-}
-
-
-
 
 /* common */
 * {
@@ -81,6 +75,16 @@ body {
 .list_inline a:hover:not(.button_small, .button_big) {
     text-decoration: underline;
     color: #6689AF;
+}
+.list_block {
+    list-style: none;
+}
+.list_block a {
+    text-decoration: none;
+}
+.list_block a:hover:not(.button_small, .button_big) {
+    text-decoration: underline;
+    color: #01A5BD;
 }
 
 .button_small {
@@ -184,12 +188,12 @@ header a {
     border-bottom: 2px solid #2D3E50;
     background-color: #F5F8FA;
 }
+#nav_top .fa-globe-europe {
+    padding-right: 5px;
+}
 #nav_top .fa-chevron-down {
     padding-left: 5px;
     font-size: 15px;
-}
-#nav_top .fa-globe-europe {
-    padding-right: 5px;
 }
 #img_search {
     height: 15px;
@@ -202,10 +206,19 @@ header a {
     cursor: pointer;
 }
 
-
-
 #nav_bottom {
-
+    width: 100%;
+    padding-top: 75px;
+    height: 150px;
+    line-height: 75px;
+    background-color: #FFFFFF;
+}
+#logo_hubspot {
+    vertical-align: middle;
+}
+#nav_bottom .fa-chevron-down {
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 #header_background {
