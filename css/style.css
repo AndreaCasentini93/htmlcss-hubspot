@@ -8,3 +8,121 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
+
+.container {
+    width: 70%;
+}
+.container_small {
+    width: 65%;
+}
+
+.img_logo {
+    height: 50px;
+}
+.img_social {
+    height: 30px;
+}
+.img_small {
+    height: 100px;
+}
+
+.icon_check::before {
+    content: \02713;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #FF7A59;
+}
+.icon_arrow_language {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.icon_arrow_menu {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.list_inline {
+    list-style: none;
+}
+.list_inline li {
+    display: inline-block;
+}
+.list_inline a {
+    text-decoration: none;
+}
+.list_inline a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.button_small {
+    padding: 10px 10px
+}
+.button_big {
+    padding: 20px 30px
+}
+.button_orange {
+    color: #FFFFFF;
+    background-color: #FF7A59;
+}
+.button_orange:hover {
+    opacity: 0.6;
+}
+.button_white_orange {
+    color: #FF7A59;
+    background-color: #FFFFFF;
+}
+.button_white_orange:hover {
+    opacity: 0.6;
+}
+.button_white_blue {
+    color: #2D3E50;
+    background-color: #FFFFFF;
+}
+.button_white_blue:hover {
+    opacity: 0.6;
+}
+
+.font_50px {
+    font-size: 50px;
+}
+.font_40px {
+    font-size: 40px;
+}
+.font_30px {
+    font-size: 30px;
+}
+.font_25px {
+    font-size: 25px;
+}
+.font_15px {
+    font-size: 15px;
+}
+.font_12px {
+    font-size: 12px;
+}
+.font_bold {
+    font-weight: 700;
+}
+
+table{
+    border-collapse: collapse;
+}
+.table_number {
+    font-size: 45px;
+}
+
+.color_blue {
+    color: ;
+}
+.color_lightblue {
+    color: ;
+}
+.color_white {
+    color: ;
+}
+
