@@ -126,3 +126,44 @@ table{
     color: ;
 }
 
+.background_white {
+    background-color: #FFFFFF;
+}
+.background_green {
+    background-color: #01A5BD;
+}
+.background_lightgreen {
+    background-color: #AFEBE4;
+}
+.background_grey {
+    background-color: #F5F8FA;
+}
+.background_blue {
+    background-color: #2D3E50;
+}
+
+/* header */
+header {
+
+}
+
+#nav_top {
+
+}
+
+#nav_bottom {
+
+}
+
+#header_background {
+    
+}
+#jumbotron {
+
+}
+
+/* main */
+
+
+/* footer */
+
