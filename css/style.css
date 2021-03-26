@@ -53,6 +53,9 @@ body {
     background-color: white;
     box-shadow: 1px 1px 4px #D3D3D3;
 }
+.box:hover {
+    transform: scale(1.01);
+}
 
 .img_logo {
     height: 25px;
@@ -309,13 +312,19 @@ main {
     line-height: 2;
 }
 #sub_section_middle h4 {
-    margin: 20px 0;
     display: inline-block;
+    margin: 20px 0;
+}
+#sub_section_middle hr {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    margin-left: 40px;
+    background-color: #899397;
 }
 #sub_section_middle li {
     margin-right: 20px;
 }
-
 
 
 
