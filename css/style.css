@@ -70,7 +70,8 @@ body {
     margin: 0 10px;
 }
 .list_inline a:hover:not(.button_small, .button_big) {
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
     color: #6689AF;
 }
 .list_block {
@@ -80,7 +81,8 @@ body {
     text-decoration: none;
 }
 .list_block a:hover:not(.button_small, .button_big) {
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
     color: #01A5BD;
 }
 
