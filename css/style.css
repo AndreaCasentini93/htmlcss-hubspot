@@ -14,7 +14,7 @@ body {
     background-color: #afebe4;
 }
 
-.clearfix {
+.clearfix::after {
     clear: both;
     content: "";
     display: table;
@@ -38,11 +38,20 @@ body {
     width: 65%;
 }
 
-.col_33 {
-    white-space: 33%;
-}
 .col_25 {
-    white-space: 25%;
+    width: 25%;
+}
+.col_33 {
+    width: 33%;
+}
+.col_75 {
+    width: 65%;
+}
+
+.box {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 4px #D3D3D3;
 }
 
 .img_logo {
@@ -52,16 +61,20 @@ body {
     height: 20px;
 }
 .img_small {
-    height: 100px;
+    height: 135px;
 }
 
 .icon_check::before {
-    content: \02713;
-    width: 10px;
-    height: 10px;
-    line-height: 10px;
+    content: "\02713";
+    display: inline-block;
+    border-radius: 50%;
+    width: 14px;
+    line-height: 14px;
     text-align: center;
     vertical-align: middle;
+    margin-right: 10px;
+    font-size: 9px;
+    font-weight: 900;
     color: white;
     background-color: #FF7A59;
 }
@@ -134,8 +147,11 @@ body {
 .font_28px {
     font-size: 28px;
 }
-.font_25px {
-    font-size: 25px;
+.font_21px {
+    font-size: 21px;
+}
+.font_18px {
+    font-size: 18px;
 }
 .font_14px {
     font-size: 14px;
@@ -151,6 +167,9 @@ body {
 }
 .font_normal {
     font-weight: 500;
+}
+.font_uppercase {
+    text-transform: uppercase;
 }
 
 table{
@@ -260,6 +279,7 @@ main {
     text-align: center;
     width: 65%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 #sub_section_top img {
     height: 160px;
@@ -271,10 +291,34 @@ main {
     line-height: 2;
 }
 
-
 #sub_section_middle {
-
+    padding: 60px 150px 60px 60px;
 }
+#sub_section_middle .col_25 {
+    text-align: center;
+}
+#sub_section_middle img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+#sub_section_middle h3 {
+    margin-bottom: 30px;
+}
+#sub_section_middle p {
+    line-height: 2;
+}
+#sub_section_middle h4 {
+    margin: 20px 0;
+    display: inline-block;
+}
+#sub_section_middle li {
+    margin-right: 20px;
+}
+
+
+
+
 #section_products [id^="col"] {
 
 }
