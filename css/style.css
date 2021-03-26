@@ -38,6 +38,13 @@ body {
     width: 65%;
 }
 
+.col_33 {
+    white-space: 33%;
+}
+.col_25 {
+    white-space: 25%;
+}
+
 .img_logo {
     height: 25px;
 }
@@ -156,13 +163,6 @@ table{
     font-size: 45px;
 }
 
-.color_lightblue {
-    color: ;
-}
-.color_white {
-    color: ;
-}
-
 .background_white {
     background-color: #FFFFFF;
 }
@@ -236,7 +236,7 @@ header a {
 }
 #jumbotron {
     width: 40%;
-    padding-top: 60px;
+    padding-top: 55px;
 }
 #jumbotron h1 {
     margin-bottom: 30px;
@@ -253,5 +253,34 @@ main {
     border-top: 3px solid #2D3E50;;
 }
 
-/* footer */
+/* main - section products */
+#section_products {
+    padding: 50px 0;
+    background-color: #F4DBFD;
+}
+#sub_section_top {
+    text-align: center;
+}
+#sub_section_middle {
 
+}
+#section_products .col {
+
+}
+
+
+/* main - section table */
+#section_table {
+    background-color: #00A4BC;
+}
+
+
+/* main - section customers */
+#section_customers {
+    background-color: #FFFFFF;
+}
+
+/* footer */
+footer {
+    background-color: #2D3E50;
+}
