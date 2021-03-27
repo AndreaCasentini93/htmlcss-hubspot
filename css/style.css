@@ -34,9 +34,6 @@ body {
     height: 100%;
     margin: 0 auto;
 }
-.container_small {
-    width: 65%;
-}
 
 .col_25 {
     width: 25%;
@@ -401,6 +398,10 @@ main {
 }
 #section_table .table_number {
     margin: 10px 0;
+}
+#section_table .addition {
+    vertical-align: middle;
+    margin-left: 5px;
 }
 
 
