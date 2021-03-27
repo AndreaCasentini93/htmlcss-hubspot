@@ -66,7 +66,7 @@ body {
     box-shadow: 1px 1px 4px #D3D3D3;
 }
 .box:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 .img_logo {
