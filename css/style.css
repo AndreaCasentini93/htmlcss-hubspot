@@ -150,11 +150,11 @@ body {
 .font_42px {
     font-size: 42px;
 }
+.font_35px {
+    font-size: 35px;
+}
 .font_28px {
     font-size: 28px;
-}
-.font_25px {
-    font-size: 25px;
 }
 .font_21px {
     font-size: 21px;
@@ -184,8 +184,23 @@ body {
 table{
     border-collapse: collapse;
 }
-.table_number {
-    font-size: 45px;
+.table_cells td {
+    width: 25%;
+    padding: 25px;
+}
+.table_cells img {
+    height: 25px;
+}
+.table_bottom {
+    border-top: 1px solid #FFFFFF;
+}
+.table_center_left {
+    border-left: 1px solid #FFFFFF;
+    border-right: 0.5px solid #FFFFFF;
+}
+.table_center_right {
+    border-right: 1px solid #FFFFFF;
+    border-left: 0.5px solid #FFFFFF;
 }
 
 .background_white {
@@ -370,8 +385,23 @@ main {
     color: #FFFFFF;
     background-color: #00A4BC;
 }
+#section_table h2 {
+    width: 92%;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+#section_table h5 {
+    width: 99%;
+    margin: 0 auto;
+    line-height: 2;
+    margin: 25px 0 40px 0;
+}
 #section_table table {
     width: 100%;
+    margin: 0 auto;
+}
+#section_table .table_number {
+    margin: 10px 0;
 }
 
 
