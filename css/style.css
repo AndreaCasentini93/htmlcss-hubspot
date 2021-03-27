@@ -41,6 +41,9 @@ body {
 .col_33 {
     width: calc(33% - 23px);
 }
+.col_50 {
+    width: 50%;
+}
 .col_75 {
     width: 75%;
 }
@@ -419,8 +422,10 @@ main {
     padding: 50px 0;
     background-color: #FFFFFF;
 }
+
 #container_small {
     width: 58%;
+    padding-bottom: 90px;
     margin: 0 auto;
 }
 #container_small {
@@ -438,6 +443,25 @@ main {
     margin-bottom: 25px;
 }
 
+#section_customers .container h2 {
+    width: 40%;
+    margin-bottom: 40px;
+}
+#section_customers .container h4 {
+    width: 41%;
+    margin: 40px 0 60px 0;
+}
+#section_customers .container p {
+    width: 41%;
+    margin-top: 60px;
+}
+
+#img_woman {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 25%;
+}
 
 /* footer */
 footer {
