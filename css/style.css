@@ -181,9 +181,6 @@ body {
     text-transform: uppercase;
 }
 
-table{
-    border-collapse: collapse;
-}
 .table_cells td {
     width: 25%;
     padding: 25px;
@@ -381,9 +378,10 @@ main {
 /* main - section table */
 #section_table {
     text-align: center;
-    padding: 55px 0;
+    padding: 50px 0;
     color: #FFFFFF;
     background-color: #00A4BC;
+    background-image: linear-gradient(to right, #00A4BC , #01BDA6);
 }
 #section_table h2 {
     width: 92%;
@@ -397,6 +395,7 @@ main {
     margin: 25px 0 40px 0;
 }
 #section_table table {
+    border-collapse: collapse;
     width: 100%;
     margin: 0 auto;
 }
