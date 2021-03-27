@@ -162,8 +162,8 @@ body {
     opacity: 0.5;
 }
 
-.font_42px {
-    font-size: 42px;
+.font_47px {
+    font-size: 47px;
 }
 .font_38px {
     font-size: 38px;
@@ -179,6 +179,9 @@ body {
 }
 .font_18px {
     font-size: 18px;
+}
+.font_16px {
+    font-size: 16px;
 }
 .font_14px {
     font-size: 14px;
