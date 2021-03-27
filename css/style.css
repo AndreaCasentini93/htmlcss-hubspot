@@ -469,10 +469,14 @@ footer a {
 
 #footer_middle {
     text-align: center;
+    padding-bottom: 20px;
     margin: 40px 0;
     border-bottom: 2px solid #CBD6E2;
 }
 
 #footer_bottom .float_right {
     text-align: right;
+}
+#footer_bottom img {
+    margin-bottom: 5px;
 }
