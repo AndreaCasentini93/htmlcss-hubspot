@@ -153,6 +153,9 @@ body {
 .font_28px {
     font-size: 28px;
 }
+.font_25px {
+    font-size: 25px;
+}
 .font_21px {
     font-size: 21px;
 }
@@ -362,8 +365,15 @@ main {
 
 /* main - section table */
 #section_table {
+    text-align: center;
+    padding: 55px 0;
+    color: #FFFFFF;
     background-color: #00A4BC;
 }
+#section_table table {
+    width: 100%;
+}
+
 
 
 /* main - section customers */
