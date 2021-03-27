@@ -42,7 +42,7 @@ body {
     width: calc(33% - 23px);
 }
 .col_75 {
-    width: 65%;
+    width: 75%;
 }
 
 .box {
@@ -56,6 +56,9 @@ body {
 
 .img_logo {
     height: 25px;
+}
+.img_customers {
+    width: 100px;
 }
 .img_social {
     height: 20px;
@@ -146,6 +149,9 @@ body {
 
 .font_42px {
     font-size: 42px;
+}
+.font_38px {
+    font-size: 38px;
 }
 .font_35px {
     font-size: 35px;
@@ -315,6 +321,10 @@ main {
 #sub_section_middle .col_25 {
     text-align: center;
 }
+#sub_section_middle .col_75 {
+    text-align: left;
+    padding-left: 40px;
+}
 #sub_section_middle img {
     display: block;
     margin: 0 auto;
@@ -375,7 +385,7 @@ main {
 /* main - section table */
 #section_table {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0 80px 0;
     color: #FFFFFF;
     background-color: #00A4BC;
     background-image: linear-gradient(to right, #00A4BC , #01BDA6);
@@ -404,12 +414,30 @@ main {
     margin-left: 5px;
 }
 
-
-
 /* main - section customers */
 #section_customers {
+    padding: 50px 0;
     background-color: #FFFFFF;
 }
+#container_small {
+    width: 58%;
+    margin: 0 auto;
+}
+#container_small {
+    width: 58%;
+    margin: 0 auto;
+}
+#container_small .list_block {
+    line-height: 2;
+}
+#container_small .img_customers {
+    vertical-align: middle;
+    margin: 10px;
+}
+#customers_number {
+    margin-bottom: 25px;
+}
+
 
 /* footer */
 footer {
