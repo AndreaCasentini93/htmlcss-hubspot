@@ -427,12 +427,8 @@ main {
 }
 
 #container_small {
-    width: 58%;
+    width: 60%;
     padding-bottom: 30px;
-    margin: 0 auto;
-}
-#container_small {
-    width: 58%;
     margin: 0 auto;
 }
 #container_small .list_block {
