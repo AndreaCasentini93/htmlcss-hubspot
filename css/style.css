@@ -42,7 +42,7 @@ body {
     width: 25%;
 }
 .col_33 {
-    width: calc(33% - 26px);
+    width: calc(33% - 23px);
 }
 .col_75 {
     width: 65%;
