@@ -403,6 +403,11 @@ main {
     background-color: #00A4BC;
     background-image: linear-gradient(to right, #00A4BC , #01BDA6);
 }
+#section_table table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
 #section_table h2 {
     width: 92%;
     margin: 0 auto;
@@ -411,11 +416,6 @@ main {
 #section_table h5 {
     line-height: 2;
     margin: 25px 0 40px 0;
-}
-#section_table table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 0 auto;
 }
 #section_table .table_number {
     margin: 10px 0;
@@ -467,6 +467,22 @@ footer a {
     color: #CBD6E2;
 }
 
+#footer_top ul li:first-child {
+    padding-bottom: 25px;
+}
+#footer_top li {
+    padding-bottom: 15px;
+}
+#footer_button {
+    margin: 10px 0;
+}
+#icon_social li {
+    margin-right: 18px;
+}
+#icon_social a {
+    margin: 0;
+}
+
 #footer_middle {
     text-align: center;
     padding-bottom: 20px;
@@ -478,5 +494,6 @@ footer a {
     text-align: right;
 }
 #footer_bottom img {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+    vertical-align: middle;
 }
