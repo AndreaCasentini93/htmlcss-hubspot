@@ -5,10 +5,6 @@
     margin: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #2D3E50;
@@ -383,24 +379,24 @@ main {
     background-color: #899397;
 }
 
-#section_products [id^="hub"] {
+[id^="hub"] {
     text-align: center;
     padding: 20px 40px 40px 40px;
     margin-top: 39px;
 }
-#section_products [id^="hub"] img {
+[id^="hub"] img {
     margin-bottom: 15px;
 }
-#section_products [id^="hub"] h3 {
+[id^="hub"] h3 {
     margin-bottom: 25px;
 }
-#section_products [id^="hub"] p {
+[id^="hub"] p {
     height: 143px;
     padding-bottom: 60px;
     border-bottom: 2px solid #899397;
     margin-bottom: 40px;
 }
-#section_products [id^="hub"] ul {
+[id^="hub"] ul {
     text-align: left;
     margin: 20px 0 60px 0;
 }
@@ -408,7 +404,8 @@ main {
     margin-right: 26px;
 }
 #hub_center {
-    margin: 0 13px 0 13px;
+    margin-left: 13px;
+    margin-right: 13px;
 }
 #hub_right {
     margin-left: 26px;
