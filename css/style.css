@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: #2D3E50;
-    background-color: #afebe4;
+    background-color: #AFEBE4;
 }
 
 .clearfix::after {
@@ -66,7 +66,7 @@ body {
 
 .box {
     border-radius: 5px;
-    background-color: white;
+    background-color: #FFFFFF;
     box-shadow: 1px 1px 4px #D3D3D3;
 }
 .box:hover {
@@ -99,7 +99,7 @@ body {
     margin-right: 10px;
     font-size: 9px;
     font-weight: 900;
-    color: white;
+    color: #FFFFFF;
     background-color: #FF7A59;
 }
 
@@ -336,7 +336,7 @@ header a {
     border-radius: 5px;
     border: 1px solid #1DAEC4;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #00000000;
 }
 #search:hover #search_text {
     visibility: visible;
