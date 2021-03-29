@@ -282,7 +282,7 @@ header a {
     border-bottom: 2px solid #2D3E50;
     background-color: #F4F9FD;
 }
-#li_language:hover {
+#language:hover {
     text-decoration-line: underline;
     text-decoration-style: initial;
     color: #01A5BD;
@@ -290,7 +290,7 @@ header a {
 #nav_top .fa-globe-europe {
     padding-right: 5px;
 }
-#select_language {
+#language_text {
     padding-right: 15px;
     border-right: 2px solid #899397;
 }
@@ -298,14 +298,14 @@ header a {
     padding-left: 5px;
     font-size: 15px;
 }
-#language {
+#language_select {
     position: absolute;
     left: 0;
     top: 0;
     opacity: 0;
     cursor: pointer;
 }
-#language option {
+#language_select option {
     font-size: 14px;
     color: #2D3E50;
     cursor: pointer;
