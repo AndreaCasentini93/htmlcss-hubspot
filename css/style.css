@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #2D3E50;
