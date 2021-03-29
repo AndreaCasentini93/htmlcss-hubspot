@@ -304,14 +304,13 @@ header a {
     color: #1DAEC4;
     background-color: #00000000;
 }
-#img_search {
+#search_img {
     vertical-align: middle;
     height: 15px;
     cursor: pointer;
 }
 #search_text {
-    width: 0;
-    visibility: hidden;
+    display: none;
 }
 #search_text::placeholder {
     color: #1DAEC4;
@@ -324,7 +323,7 @@ header a {
     background-color: #00000000;
 }
 #search:hover #search_text {
-    visibility: visible;
+    display: inline-block;
     width: 70%;
     border: none;
     background-color: #00000000;
