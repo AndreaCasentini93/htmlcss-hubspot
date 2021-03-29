@@ -18,8 +18,16 @@
                 <nav id="nav_top" class="font_14px">
                     <div class="container clearfix">
                         <ul class="list_inline float_left">
-                            <li>
+                            <li id="li_language" class="p_relative">
                                 <span id="select_language"><i class="fas fa-globe-europe"></i>English<i class="fas fa-chevron-down"></i></span>
+                                <select id="language" name="language">
+                                    <option value="EN">English</option>
+                                    <option value="DE">Deutsch</option>
+                                    <option value="JA">日本語</option>
+                                    <option value="ES">Espa&#241;ol</option>
+                                    <option value="PO">Portugu&#xea;s</option>
+                                    <option value="FR">Fran&#xe7;ais</option>
+                                </select>
                             </li>
                             <li>
                                 <a href="#">Contact Us</a>
@@ -28,7 +36,12 @@
 
                         <ul class="list_inline float_right">
                             <li>
-                                <img id="img_search" src="img/search-20icon.webp" alt="image search">
+                                <form id="search" action="URL" method="GET">
+                                    <button id="search_button">
+                                        <img id="img_search" src="img/search-20icon.webp" alt="image search">
+                                    </button>
+                                    <input id="search_text" type="text" placeholder="search..." required maxlength="30">
+                                </form>
                             </li>
                             <li>
                                 <a class="button_small button_white" href="#">Log In</a>
@@ -47,7 +60,7 @@
                         <a class="float_left" href="#">
                             <img id="logo_hubspot" class="img_logo" src="img/logo.svg" alt="image logo hubspot">
                         </a>
-                        
+
                         <ul class="list_inline float_right">
                             <li>
                                 <a href="#">Software<i class="fas fa-chevron-down"></i></a>
@@ -163,7 +176,7 @@
                 </div>
             </section>
             <!-- /section products -->
-            
+
             <!-- section table -->
             <section id="section_table" class="color_white">
                 <div class="container">
@@ -222,7 +235,7 @@
                 </div>
             </section>
             <!-- /section table -->
-            
+
             <!-- section customers -->
             <section id="section_customers">
                 <div id="container_small" class="clearfix">

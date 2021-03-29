@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-
+search
 html {
     scroll-behavior: smooth;
 }
@@ -282,22 +282,67 @@ header a {
     border-bottom: 2px solid #2D3E50;
     background-color: #F4F9FD;
 }
+#li_language:hover {
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    color: #01A5BD;
+}
 #nav_top .fa-globe-europe {
     padding-right: 5px;
 }
 #select_language {
     padding-right: 15px;
     border-right: 2px solid #899397;
-    cursor: pointer;
 }
 #nav_top .fa-chevron-down {
     padding-left: 5px;
     font-size: 15px;
 }
+#language {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+#language option {
+    font-size: 14px;
+    color: #2D3E50;
+    cursor: pointer;
+}
+
+#search_button {
+    height: 100%;
+    margin: 0 10px 0 5px;
+    cursor: pointer;
+    border: none;
+    color: #1DAEC4;
+    background-color: #00000000;
+}
 #img_search {
     vertical-align: middle;
     height: 15px;
     cursor: pointer;
+}
+#search_text {
+    width: 0;
+    visibility: hidden;
+}
+#search_text::placeholder {
+    color: #1DAEC4;
+}
+#search:hover {
+    padding: 7px 0;
+    border-radius: 5px;
+    border: 1px solid #1DAEC4;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+#search:hover #search_text {
+    visibility: visible;
+    width: 70%;
+    border: none;
+    background-color: #00000000;
 }
 
 #nav_bottom {
