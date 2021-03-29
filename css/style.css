@@ -76,11 +76,10 @@ body {
 .img_logo {
     height: 25px;
 }
-.img_customers {
+.img_customers img {
+    vertical-align: middle;
     width: 100px;
-}
-.img_social {
-    height: 20px;
+    margin-bottom: 10px;
 }
 .img_135px {
     height: 135px;
@@ -449,10 +448,6 @@ main {
 }
 #container_small .list_block li{
     line-height: 2;
-}
-#container_small .img_customers {
-    vertical-align: middle;
-    margin-bottom: 10px;
 }
 #customers_number {
     margin-bottom: 25px;
