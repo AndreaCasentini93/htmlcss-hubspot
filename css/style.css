@@ -36,21 +36,6 @@ body {
     margin: 0 auto;
 }
 
-.jumbotron_text {
-    padding-top: 55px;
-}
-.jumbotron_text h1,
-.jumbotron_text h2 {
-    margin-bottom: 30px;
-}
-.jumbotron_text h3,
-.jumbotron_text h4 {
-    margin-bottom: 50px;
-}
-.jumbotron_text p {
-    margin-top: 50px;
-}
-
 .col_25 {
     width: 25%;
 }
@@ -76,7 +61,7 @@ body {
 .img_logo {
     height: 25px;
 }
-.img_customers img {
+.img_sponsor img {
     vertical-align: middle;
     width: 100px;
     margin-bottom: 10px;
@@ -370,8 +355,18 @@ header a {
     background-repeat: no-repeat;
     background-position: 100% 25%;
 }
-#jumbotron_background .jumbotron_text {
+#jumbotron_text {
     width: 50%;
+    padding-top: 55px;
+}
+#jumbotron_text h1 {
+    margin-bottom: 30px;
+}
+#jumbotron_text h3 {
+    margin-bottom: 50px;
+}
+#jumbotron_text p {
+    margin-top: 50px;
 }
 
 /* main */
@@ -499,8 +494,18 @@ main {
     margin-bottom: 25px;
 }
 
-#section_customers .jumbotron_text {
+#customers_access {
     width: 43%;
+    padding-top: 55px;
+}
+#customers_access h2 {
+    margin-bottom: 30px;
+}
+#customers_access h4 {
+    margin-bottom: 50px;
+}
+#customers_access p {
+    margin-top: 50px;
 }
 
 #img_woman {
