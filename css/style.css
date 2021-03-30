@@ -593,6 +593,7 @@ footer a {
     right: 15px;
     font-size: 25px;
     color: #808080;
+    cursor: default;
 }
 #fixed_baloon img {
     position: absolute;
