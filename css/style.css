@@ -566,7 +566,7 @@ footer a {
     border-radius: 5px;
     margin-bottom: 20px;
     background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 15px #0000001a;
     cursor: pointer;
 }
 #fixed_baloon {
@@ -577,15 +577,8 @@ footer a {
     padding: 5px;
     border-radius: 50%;
     background-color: #445F7A;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 15px #00000066;
     cursor: pointer;
-}
-#fixed_baloon img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 50%;
 }
 #fixed_avatar {
     position: absolute;
@@ -593,4 +586,18 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 20%;
+}
+#fixed_cross {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    color: #808080;
+}
+#fixed_baloon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
 }
