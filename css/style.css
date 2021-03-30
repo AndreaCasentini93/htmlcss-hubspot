@@ -550,3 +550,47 @@ footer a {
     vertical-align: middle;
     margin-bottom: 10px;
 }
+
+/* fixed message */
+#fixed_box {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+#fixed_message {
+    float: right;
+    width: 90%;
+    padding: 30px 0px 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+#fixed_baloon {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #445F7A;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+#fixed_baloon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+}
+#fixed_avatar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
