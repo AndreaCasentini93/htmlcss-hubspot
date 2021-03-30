@@ -207,7 +207,7 @@ body {
 .table_cells img {
     height: 25px;
 }
-.table_bottom {
+.table_bottom td {
     border-top: 1px solid #FFFFFF;
 }
 .table_center_left {
